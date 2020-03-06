@@ -5,5 +5,8 @@ class Reports extends MX_Controller {
 	public function index(){
 		$this->template->write_view('detail');
 	}
+	public function list(){
+		$this->template->write_view('list');
+	}
 }
 ?>

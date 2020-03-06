@@ -47,7 +47,7 @@ $(document).ready(function(){
 
     function refreshEmployee(){
         $.ajax({
-                url: base_url + "attandances/<?= $this->uri->segment(3) ?>/employeeid",
+                url: base_url + "attandances/<?= $this->uri->segment(3) ?>/employeeid/01/month/2020/year",
                 type: 'GET',
                 dataType: 'json',
                 async: true,
